@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material/material.module';
 import { GlobalsModule } from './shared/globals/globals.module';
-import { HeaderComponent } from './components/templates/header/header.component';
+import { HeaderComponent } from './components/templates/headers/header/header.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { ContentComponent } from './components/templates/content/content.component';
 import { RedDirective } from './directives/red.directive';
+import { BlogTitleComponent } from './components/templates/headers/blog-title/blog-title.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RedDirective } from './directives/red.directive';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    RedDirective
+    RedDirective,
+    BlogTitleComponent
   ],
   imports: [
     BrowserModule,
