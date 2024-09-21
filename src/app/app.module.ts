@@ -11,6 +11,7 @@ import { FooterComponent } from './components/templates/footer/footer.component'
 import { ContentComponent } from './components/templates/content/content.component';
 import { RedDirective } from './directives/red.directive';
 import { BlogTitleComponent } from './components/templates/headers/blog-title/blog-title.component';
+import { CardComponent } from './components/views/card/card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BlogTitleComponent } from './components/templates/headers/blog-title/bl
     FooterComponent,
     ContentComponent,
     RedDirective,
-    BlogTitleComponent
+    BlogTitleComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
