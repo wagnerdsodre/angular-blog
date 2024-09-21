@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -8,10 +9,12 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     FormsModule,
+    HttpClientModule
   ],
   exports:[
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class GlobalsModule { }
